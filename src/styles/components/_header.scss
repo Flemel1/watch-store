@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    color: #F2F2F2;
+
+    ul {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        font-size: 1rem;
+    }
+
+    li {
+        margin-left: 1rem;
+    }
+
+    li:nth-child(1) {
+        margin-left: 0;
+    }
+}

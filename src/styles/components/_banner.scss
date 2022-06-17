@@ -1,0 +1,28 @@
+.banner {
+    margin: 0;
+    height: 100vh;
+    color: #F2F2F2;
+
+    &__image {
+        width: 100%;
+        height: inherit;
+        background: linear-gradient(rgb(0,0,0), rgb(0,0,0));
+    }
+
+    &__wrapper {
+        width: 100%;
+        position: absolute;
+        top: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        h2 {
+            padding-left: 35%;
+            padding-right: 35%;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+}

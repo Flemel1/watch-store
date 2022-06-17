@@ -1,0 +1,22 @@
+.category {
+    margin-top: 2rem;
+    &__list {
+        display: flex;
+        margin-bottom: 1rem;
+
+        &__item {
+            padding: 1rem 2rem;
+            color: #FFF;
+        }
+
+        &__item:first-child {
+            border-bottom: 5px solid #FAFF00;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 2rem;
+    }
+}
